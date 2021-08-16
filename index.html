@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap" rel="stylesheet">  
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 	<title>Tuli Martin</title>
 	
@@ -25,11 +26,12 @@
 				  <a class="nav-link active" href="index.html">Tuli Martin<span class="sr-only"></span></a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="NosotrosLaBanda.html">Sobre mi</a>
+					<a class="nav-link" href="#galeria">Galería</a>
+				  </li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#videos">Videos</a>
 				</li>
-		   <li class="nav-item">
-				  <a class="nav-link" href="#galeria">Galería</a>
-				</li>
+		   
 		   <li class="nav-item">
 				  <a class="nav-link" href="#contactame">Contactame</a>
 				</li>
@@ -40,7 +42,7 @@
 	</header>
 	
 <main>
-	<h1>Tuli Martin</h1>
+	<h1 class="animate__animated animate__zoomInUp">Tuli Martin</h1>
 	<div class="presentacion">
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -65,24 +67,33 @@
 					<span class="sr-only">Próxima</span>
 				  </a>
 			</div>
-		</div>		
-	<div class="texto">
-		<p>Tuli es cantante, compositora, docente</p> 
-		<p> y una gran transmisora de sensaciones corporales y auditivas.</p>
-		<p>A través de la música logra conectar a las personas </p>
-		<p> con partes de ellas mismas que ni sabían que existían.</p>
-		<p>Participó de distintas bandas como "Cimarronada","La Segundita" y más... </p>	
-	</div>
-	</div>
+		</div>
+					<div class="texto">
+						<p>Tuli es cantante, compositora, docente</p> 
+						<p> y una gran transmisora de sensaciones corporales y auditivas.</p>
+						<p>A través de la música logra conectar a las personas </p>
+						<p> con partes de ellas mismas que ni sabían que existían.</p>
+						<p>Participó de distintas bandas como "Cimarronada","La Segundita" y más... </p>	
+					</div>
+		</div>	
 <!-- Galería -->
 <section id="galeria">
-	<h2>Galería</h2>
-	
-	<h3>Fotos</h3>
+	<h2 class="animate__animated animate__slideInRight">Galería</h2>
 <div class="fotos">
-
+	<img class="estiloFotos" src="img/labicicleteria.jpg" alt="Tuli en La Bicicletería">
+	<img class="estiloFotos" src="img/fotoTuli.jpg" alt="Tuli cantando">
+	<img class="estiloFotos" src="img/profunda.jpg" alt="Tuli foto de cerca">
 </div>
-<H3>Videos</H3>
+<div class="fotos">
+	<img class="estiloFotos" src="img/camisafloreada.jpg" alt="Tuli en evento">
+	<img class="estiloFotos" src="img/cantantes.jpg" alt="Tuli cantando en el Encuentro de Cantantes">
+	<img class="estiloFotos" src="img/cimarronada.jpg" alt="Tuli con la Cimarronada">
+</div>
+</section>
+<!-- Videos -->
+<section id="videos">
+<h2 class="animate__animated animate__slideInRight">Videos</h2>
+<hr>
 <div class="videos1">
 	
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/XbYnXHWuHjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -96,8 +107,10 @@
 </main>	
 
 	<footer id="contactame"> 
-	<!-- Redes -->	
-	<h3>Encontrame aca y contactate conmigo</h3>	
+	<!-- Redes -->
+	<hr>	
+	<h3 class="animate__animated animate__slideInRight">Contacto</h3>
+		
 	<div class="redes-flex">
 			<a href="https://www.facebook.com/TUUUUL/" target=”_blank”> 
 				<img class="imgredes-flex" src="img/iconoFB.png" alt="Logo de Facebook"> </a>
