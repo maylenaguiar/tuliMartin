@@ -111,4 +111,32 @@ footer{
 iframe{
     margin-top: 20px;
 }
+/*Media Queries*/
+@media (max-width: 480px) {
+    
+    .texto{
+        font-size: 16px;
+        padding: 20px;
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 
+    .fotos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #54426B;
+    }
+    .estiloFotos{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 15%;
+        transition: transform.2s;
+    }
+    .estiloFotos:hover{
+        transform: scale(1.5);
+        filter: opacity(.5);
+    }
+}
