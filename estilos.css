@@ -1,7 +1,7 @@
 body{
     font-family: 'Forum', cursive;
     font-size: 20px;
-    color: #54426B;
+    color: #57A773;
 }
 .encabezado{
     display: grid;
@@ -9,7 +9,7 @@ body{
         "logo . menuCentrado"
         "logo . ."
         "logo . .";
-    background-color: #B388EB;
+    background-color:#57A773;
 }
 
 .logo{
@@ -28,7 +28,6 @@ nav {
     padding: 80px;
     background-image: url(img/blancoynegro.png);
     background-size: cover;
-    color: #EDD3C4;
     text-shadow: 1px 1px black;
 }
 .texto{
@@ -55,6 +54,7 @@ h3{
     font-size: 22px;
     margin-top: 70px;
     margin-bottom: 30px;
+    color:#57A773;
 }
 .animate__animated.animate__slideInRight {
     --animate-duration: 4s;
@@ -82,7 +82,6 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #54426B;
 }
 .estiloFotos{
     margin-top: 70px;
@@ -95,10 +94,9 @@ footer{
     filter: opacity(.5);
 }
 #galeria{
-    background-color: #54426B;
     padding-top: 30px;
-    color: #EDD3C4;
-    margin-top: 50px;
+    color: #D8DDDE;
+    background-image: url(img/arbol.jpg);
 }
 .videos1{
     display: flex;
@@ -121,13 +119,18 @@ iframe{
         text-align: center;
         margin-bottom: 20px;
     }
+    #galeria{
+        padding-top: 30px;
+        color: #D8DDDE;
+        background-image: url(img/arbol.jpg);
+        background-size: cover;
+    }
 
     .fotos{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        background-color: #54426B;
     }
     .estiloFotos{
         margin-top: 20px;
