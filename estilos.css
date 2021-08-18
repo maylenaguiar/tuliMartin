@@ -93,10 +93,11 @@ footer{
     margin-bottom: 70px;
     border-radius: 15%;
     transition: transform.2s;
+    filter: opacity(.5);
 }
 .estiloFotos:hover{
     transform: scale(1.5);
-    filter: opacity(.5);
+    filter: none;
 }
 #galeria{
     padding-top: 30px;
@@ -142,6 +143,7 @@ iframe{
         margin-bottom: 20px;
         border-radius: 15%;
         transition: transform.2s;
+        filter: opacity(.7);
     }
     .estiloFotos:hover{
         transform: scale(1);
