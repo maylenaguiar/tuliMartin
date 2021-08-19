@@ -41,6 +41,7 @@ nav {
     padding-top: 50px;
     text-align: center;
     margin-bottom: 20px;
+    color: antiquewhite;
 }
 
 h1{
@@ -124,6 +125,17 @@ iframe{
         padding-top: 20px;
         text-align: center;
         margin-bottom: 20px;
+        color: antiquewhite;
+    }
+    .presentacion{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+        padding: 80px;
+        background-image: url(img/blancoynegro.png);
+        background-size: cover;
+        text-shadow: 1px 1px black;
+        width: 100%;
     }
     #galeria{
         padding-top: 30px;
